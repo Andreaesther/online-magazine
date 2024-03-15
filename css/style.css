@@ -1,0 +1,148 @@
+/* Definerer de skrifttyper jeg skal bruge*/
+@font-face {
+    font-family: 'Chakra Petch';
+    src: url(../fonts/Chakra_Petch.zip) format('truetype');
+    font-family: Nanum Brush Script;
+    src: url(../fonts/Nanum_Brush_Script/);
+}
+
+/* Indsætter mine fonts*/
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    line-height: 2;
+}
+
+h1{
+    font-family: 'Nanum Brush Script',sans-serif ;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Styling af logo og baggrundsfarve ved logo*/
+.logo {
+    height: 10vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #ffe372 ;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+/*Styling af logo på undersiderne*/
+.logo-underside {
+    height: 10vh;
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+    background-color: #ffe372 ;
+    padding: 20px;
+  }
+
+/* Styling af hovedmenu */
+nav{
+    text-align: center;
+}
+
+nav a{
+    height: 100%;
+    padding: 12px 80px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+/*Skygge når man bevæger musen*/
+nav a:hover{
+    background-color: #ffe372;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 65px;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /*Styling af dropdown menuen*/
+  nav ul .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;    
+  }
+  
+  nav ul .dropdown li {
+    margin: 0;
+  }
+  
+  nav ul .dropdown li a {
+    padding: 8px 20px;
+  }
+  
+  nav ul .menu:hover .dropdown {
+    display: block;
+  }
+
+/* Styling af hovedmenu på undersiderne */
+.menu-underside{
+    padding:  300px;
+    }
+
+
+/*Tekst skal stå i midten på undersiderne*/
+.brødtekst1{
+    text-align: center;
+}
+
+/*Layout af tekstsections*/
+.ingredienser{
+    margin-left: 150px;
+}
+
+.ingredienser ul{
+    margin-left: 20px;
+    line-height: 2;
+}
+
+.guide{
+    margin-left: 1000px;
+}
+
+.section1{
+    margin-top: 90px;
+    margin-right: 1000px;
+    text-align: center;
+}
+
+.section2{
+    margin-top: 150px;
+    margin-left: 1000px;
+    text-align: center;
+}
+
