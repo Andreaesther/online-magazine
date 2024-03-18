@@ -140,7 +140,7 @@ nav ul li {
     text-align: center;
 }
 
-/*Layout af tekstsections*/
+/*Layout af tekstsections på opskrift siden*/
 .ingredienser{
     margin-left: 150px;
 }
@@ -155,6 +155,7 @@ nav ul li {
     margin-bottom: 100px;
 }
 
+/*Layout af tekstsections på japan siden*/
 .sushi-section{
     margin-top: 150px;
     margin-right: 800px;
@@ -181,28 +182,31 @@ nav ul li {
 }
 
 /*Styling af articles på undersiden "lager"*/
-.soya{
-
+.flasker{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-items: center;
 }
 
-.fisk{
-
+.flasker .venstre{
+    margin-left: 200px;
 }
 
-.øster{
-
+.flasker .højre{
+    margin-right: 200px;
 }
 
-.sesam{
-    
+.flasker .tekst{
+    margin-left: 100px;
 }
 
-
-
-
-
-
-
+/* Denne var mere mod højre end den ovenover så det rettede jeg her*/
+.flasker .sesam{
+    margin-right: 300px;
+}
 
 /* Styling af footer*/
 /*Størrelse af footer*/
