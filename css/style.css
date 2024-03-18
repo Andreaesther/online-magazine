@@ -39,16 +39,6 @@ h1{
     margin-right: 200px;
   }
 
-/*Styling af logo på undersiderne*/
-.logo-underside {
-    height: 10vh;
-    display: flex;
-    justify-content: left; 
-    align-items: center; 
-    background-color: #ffe372 ;
-    padding: 20px;
-  }
-
 /* Styling af hovedmenu */
 nav{
     text-align: center;
@@ -68,6 +58,7 @@ nav a:hover{
     background-color: #ffe372;
 }
 
+/*Styling af hovedmenu*/
 nav ul {
     list-style: none;
     margin: 0;
@@ -109,11 +100,40 @@ nav ul li {
     display: block;
   }
 
+/*Styling af fotos på forsiden*/
+.opskrifter{ 
+    margin-top: 100px;
+    margin-bottom: 120px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+/*Ligger billederne på en række med mellemrum*/
+.populære-opskrifter{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Sætter fotos til at fylde 20% af bredden*/
+.opskrift{
+    width: 20%;
+}
+
+/*UNDERSIDER*/
 /* Styling af hovedmenu på undersiderne */
 .menu-underside{
     padding:  300px;
     }
 
+/*Styling af logo på undersiderne*/
+.logo-underside {
+    height: 10vh;
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+    background-color: #ffe372 ;
+    padding: 20px;
+  }
 
 /*Tekst skal stå i midten på undersiderne*/
 .brødtekst1{
@@ -132,17 +152,84 @@ nav ul li {
 
 .guide{
     margin-left: 1000px;
+    margin-bottom: 100px;
 }
 
-.section1{
-    margin-top: 90px;
-    margin-right: 1000px;
-    text-align: center;
-}
-
-.section2{
+.sushi-section{
     margin-top: 150px;
-    margin-left: 1000px;
+    margin-right: 800px;
     text-align: center;
 }
 
+.udon-section{
+    margin-top: 150px;
+    margin-left: 800px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/*Styling af billeder på undersiden "japan"*/
+.sushi{
+    transform: rotate(270deg);
+    width: 450px;
+    margin-left: 1000px;
+    margin-top: -400px;
+}
+
+.udon{
+    width: 450px;
+}
+
+/*Styling af articles på undersiden "lager"*/
+.soya{
+
+}
+
+.fisk{
+
+}
+
+.øster{
+
+}
+
+.sesam{
+    
+}
+
+
+
+
+
+
+
+
+/* Styling af footer*/
+/*Størrelse af footer*/
+.footer{
+    height: 10vh;
+    background-color: #ffe372 ;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Får kontaktoplysninger til at stå over hiananden*/
+.kontakt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    align-items: flex-end;
+    margin-right: 25px;
+}
+
+/* Styling af footer på undersiderne */
+.footer-underside{
+    height: 10vh;
+    background-color: #ffe372;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
