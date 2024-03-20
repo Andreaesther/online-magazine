@@ -27,9 +27,10 @@ h1{
     box-sizing: border-box;
 }
 
+
 /*Styling af logo og baggrundsfarve ved logo*/
 .logo {
-    height: 10vh;
+    height: 20vh;
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -37,6 +38,7 @@ h1{
     padding: 20px;
     margin-left: 200px;
     margin-right: 200px;
+    padding-top: 80px;
   }
 
 /* Styling af hovedmenu */
@@ -100,6 +102,10 @@ nav ul li {
     display: block;
   }
 
+
+
+
+/*FORSIDEN*/
 /*Styling af fotos på forsiden*/
 .opskrifter{ 
     margin-top: 100px;
@@ -133,6 +139,7 @@ nav ul li {
     align-items: center; 
     background-color: #ffe372 ;
     padding: 20px;
+    padding-top: 50px;
   }
 
 /*Tekst skal stå i midten på undersiderne*/
@@ -140,6 +147,7 @@ nav ul li {
     text-align: center;
 }
 
+/*OPSKRIFT-siden*/
 /*Layout af tekstsections på opskrift siden*/
 .ingredienser{
     margin-left: 150px;
@@ -151,10 +159,58 @@ nav ul li {
 }
 
 .guide{
-    margin-left: 1000px;
+    margin-left: 900px;
     margin-bottom: 100px;
+    margin-top: 350px;
+    line-height: 3;
 }
 
+/*Layout af foto på opskrift siden*/
+.yakiudon{
+    transform: rotate(90deg);
+    margin-top: -800px;
+    margin-left: 900px;
+}
+
+/*Layout af cirkel med tekst på opskrift-siden*/
+.container{
+    background-color: #ffe372aa;
+    width: 250px;
+    height: 125px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 620px;
+    margin-top: -500px;
+}
+
+.cirkel{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.cirkel img{ /*Justerer str på ikonerne*/
+    width: 30px;
+    margin-right: 20px;
+}
+
+.slettes{
+    list-style-type: none;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+/*JAPAN-siden*/
 /*Layout af tekstsections på japan siden*/
 .sushi-section{
     margin-top: 150px;
@@ -163,10 +219,10 @@ nav ul li {
 }
 
 .udon-section{
-    margin-top: 150px;
     margin-left: 800px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    margin-top: -600px;
 }
 
 /*Styling af billeder på undersiden "japan"*/
@@ -174,13 +230,17 @@ nav ul li {
     transform: rotate(270deg);
     width: 450px;
     margin-left: 1000px;
-    margin-top: -400px;
+    margin-top: -375px;
 }
 
 .udon{
+    transform: rotate(90deg);
     width: 450px;
+    margin-left: 250px;
+    margin-bottom: 200px;
 }
 
+/*LAGER-siden*/
 /*Styling af articles på undersiden "lager"*/
 .flasker{
     display: flex;
@@ -203,12 +263,12 @@ nav ul li {
     margin-left: 100px;
 }
 
-/* Denne var mere mod højre end den ovenover så det rettede jeg her*/
+/* Billedet var mere mod højre end den ovenover så det rettede jeg her*/
 .flasker .sesam{
     margin-right: 300px;
 }
 
-/* Styling af footer*/
+/* FOOTER*/
 /*Størrelse af footer*/
 .footer{
     height: 10vh;
@@ -218,15 +278,16 @@ nav ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 0px;
 }
 
 /* Får kontaktoplysninger til at stå over hiananden*/
 .kontakt{
     display: flex;
     flex-direction: column;
-    margin-top: 5px;
     align-items: flex-end;
     margin-right: 25px;
+    margin-bottom: 10px;
 }
 
 /* Styling af footer på undersiderne */
